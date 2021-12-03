@@ -3,8 +3,59 @@
 
 <head>
     <link rel="stylesheet" href="css/index.css" />
+   <style>
+    nav.bg-dark {
+
+        color: var(--header-foreground-color);
+        background-color: var(--header-background-color) !important;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #572f07;
+    }
+
+</style> 
+
+
 </head>
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Het Patel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Graphic">Graphic</a>
+                <li class="nav-item">
+                     <a class="nav-link" href="Ux">UX</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+        $("document").ready(() => {
+            $.get("items/graphic.md").then((sData) => {
+                $("#section_1").append(marked(sData));
+            });
+            $.get("items/UX.md").then((sData) => {
+                $("#section_2").append(marked(sData));
+            });
+            $.get("contact.md").then((sData) => {
+                $("#contact").append(marked(sData));
+            });
+            $.get("about.md").then((sData) => {
+                $("#about").append(marked(sData));
+            });
+        });
+    </script>
     <header>
 
     </header>
