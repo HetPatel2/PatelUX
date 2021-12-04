@@ -3,7 +3,20 @@
 
 <head>
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
     <style>
+
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+
         :root {
             --header-background-color: #D4A373;
             --header-foreground-color: sliver;
@@ -28,22 +41,65 @@
             color: #572f07;
         }
 
-        .box1 {
-            width: 670px;
-            height: 1070px;
-            margin: 13px;
-            padding: 20px;
+
+
+        .btn-group {
+
+            padding: 30px 40px;
+
+
+
+            size: 4em 5em;
+
+            display: inline;
+            border-radius: 8px;
+            /* border: 2px solid rgb(85, 84, 9)
+                /* Green  */
 
         }
 
-        .box2 {
-            float: inline;
-            width: 800px;
-            height: 1070px;
+
+
+
+        .button1 {
+
+            background-color: #d9e9af;
+            border: 0.1px #d9e9af;
+            margin: 0 10px;
+            width: 505px;
+        }
+
+        .button2 {
+            background-color: #d9e9af;
+            border: 0.1px #d9e9af;
+            margin: 0 200px;
+            width: 470px;
+        }
+
+        .button3 {
+            background-color: #d9e9af;
+            border: 0.1px #d9e9af;
+            margin: 0 4px;
+            width: 470px;
+        }
+
+        .button.button:not(:last-child) {
+            border-right: none;
+            /* Prevent double borders */
+        }
+
+        .box1 {
+            width: 860px;
+            height: 700px;
             margin: 13px;
             padding: 20px;
+        }
 
-
+        .box2 {
+            width: 500x;
+            height: 800px;
+            margin: 13px;
+            padding: 20px;
         }
 
         .box3 {
@@ -54,7 +110,6 @@
             padding: 20px;
             border: 0.1px #dab6a8;
             background-color: #dab6a8;
-
         }
 
         .box4 {
@@ -65,20 +120,19 @@
             padding: 20px;
             border: 0.1px #dab6a8;
             background-color: #dab6a8;
-
         }
-        .box5{
+
+        .box5 {
             width: 500px;
 
             height: 500px;
             margin: 13px;
-            align-self: left
-            ;
+            align-self: left;
             padding: 20px;
             border: 0.1px #dab6a8;
             background-color: #dab6a8;
-
         }
+
         .box6 {
             width: 500px;
             height: 500px;
@@ -100,13 +154,13 @@
             background-color: #dab6a8;
 
         }
-        .box8{
+
+        .box8 {
             width: 500px;
 
             height: 500px;
             margin: 13px;
-            align-self: left
-            ;
+            align-self: left;
             padding: 20px;
             border: 0.1px #dab6a8;
             background-color: #dab6a8;
@@ -115,25 +169,24 @@
 
         .grid-container {
             display: grid;
-            grid-template-columns: 0.3fr 3fr ;
-            grid-gap: 20px
-            grid-auto-rows 30px;
-            gap: 6px 6em;
+            grid-template-columns: 0.3fr 3fr;
+            grid-gap: 20px grid-auto-rows 30px;
+            gap: 23px 10em;
         }
+
         .grid-container2 {
             display: grid;
             grid-template-columns: 0.3fr 0.3fr 0.3fr;
-            grid-gap: 20px
-            grid-auto-rows 30px;
-            gap: 6px 6em;
+            grid-gap: 20px grid-auto-rows 30px;
+            gap: 10.1px 10.1em;
         }
+
         .grid-container3 {
             display: grid;
             grid-template-columns: 0.3fr 0.3fr 0.3fr;
-            grid-gap: 20px
-            grid-auto-rows 30px;
-            gap: 6px 6em;
-   
+            grid-gap: 20px grid-auto-rows 30px;
+            gap: 10.5px 10.5em;
+
         }
 
         h1 {
@@ -158,7 +211,7 @@
         <div class="collapse navbar-collapse" id="navbarsExample04">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Graphic Design</a>
+                    <a class="nav-link" href="#section_1">Graphic Design</a>
                 <li class="nav-item">
                     <a class="nav-link" href="#section_2">UX</a>
                 <li class="nav-item">
@@ -170,6 +223,7 @@
             </ul>
         </div>
     </nav>
+    <br>
 
     <h1>Het's portfolio </h1>
     <div class="grid-container">
@@ -181,15 +235,19 @@
         </div>
 
         <div class="grid-child green2">
+
+
             <div class="box1">
                 <img src="Aboutme.png">
-                <a href="https://www.youtube.com/watch?v=T_ShfwC9rWc">
+
             </div>
         </div>
     </div>
 
-<h1>Graphic Design</h1>
 
+
+    <h1>Graphic Design</h1>
+    <br>
     <div class="grid-container2">
 
         <div class="graphic1">
@@ -209,9 +267,21 @@
             </div>
         </div>
     </div>
+    <div class="button">
+        <a href="airplane.html">
+            <button class="button1">Airplane</button>
+        </a>
+        <a href="airplane.html">
+            <button class="button2">Space woman</button>
+        </a>
+        <a href="airplane.html"></a>
+        <button class="button3">Art print 3</button>
 
+    </div>
+
+    <br>
     <h1>UX work</h1>
-
+    <br>
     <div class="grid-container3">
 
         <div class="ux1">
@@ -252,10 +322,10 @@
                 $("#about").append(marked(sData));
             });
             $.get("items/graphic.md").then((sData) => {
-                $("#section_1").append(marked(sData));
+                $("#graphic").append(marked(sData));
             });
             $.get("items/UX.md").then((sData) => {
-                $("#section_2").append(marked(sData));
+                $("#ux").append(marked(sData));
             });
             $.get("items/contact.md").then((sData) => {
                 $("#contact").append(marked(sData));
