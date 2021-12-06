@@ -19,7 +19,27 @@
 
 
         }
-       
+h1{
+
+    font-size: 3em;
+}
+
+        h2{
+
+            font-family: 'Noto Serif', serif;
+            font-size: 40px;
+            text-align: center;
+
+        }
+       h5{
+        font-family: 'EB Garamond', serif;
+           padding-top: 10em;
+           padding: 1em;
+          
+        font-size: 23px;
+        place-items: center;
+        
+       }
       
         .box1 {
             width: 860px;
