@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+          <link rel="stylesheet" href="index.css" />
+
+</head>
+
+<body>
+    <header>
+    </header>
+    <h1>Porch Private App  </h1>
+    <div class="grid-container">
+        <div class="grid-child purple1">
+            <div class="box1">
+                <section id="porch"></section>
+            </div>
+        </div>
+        <div class="grid-child green2">
+            <div class="box1">
+                <img src="porch/porch.png">
+
+            </div>
+        </div>
+    </div>
+<h1>Process Work</h1>
+<div class="grid-container2">
+<div class="good1">
+    <div class="good1">
+        <img src="porch/1.png" alt="airplane in clouds">
+    </div>
+</div>
+
+<div class="good2">
+    <div class="good2">
+        <img src="porch/1.png" alt="airplane in clouds">
+    </div>
+</div>
+<div class="good2">
+    <div class="good2">
+        <img src="porch/2.png" alt="airplane in clouds">
+    </div>
+</div>
+<div class="good2">
+    <div class="good2">
+        <img src="porch/3.png" alt="airplane in clouds">
+    </div>
+</div>
+<div class="good2">
+    <div class="good2">
+        <img src="porch/4.png" alt="airplane in clouds">
+    </div>
+</div>
+<div class="good2">
+    <div class="good2">
+        <img src="porch/5.png" alt="airplane in clouds">
+    </div>
+</div>
+
+</div>
+</div>
+<section id="porch"></section>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.js"></script>
+
+<script>
+    $("document").ready(() => {
+        $.get("items/porch.md").then((sData) => {
+            $("#porch").append(marked(sData));
+        });
+        
+
+    });
+</script>
+   
+</body>
+
+
+
+
+
+</html>

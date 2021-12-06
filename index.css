@@ -1,5 +1,7 @@
 
 @import url();
+
+
 .WebContainer {
     width: 100%;
     height: auto;
@@ -37,11 +39,16 @@ nav.bg-dark {
 }
 
 
+h1 {
+    font-family: Libre Baskerville, serif;
+    text-align: center;
+    font-size: 30px;
+}
+h2{
 
 
-
-
-
+    
+}
 
 /*About me page*/
 .box1 {

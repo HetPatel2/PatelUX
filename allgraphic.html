@@ -9,11 +9,11 @@
 <body>
     <header>
     </header>
-    <h1>Paper Airplane</h1>
+    <h1>All My art works</h1>
     <div class="grid-container">
         <div class="grid-child purple1">
             <div class="box1">
-                <section id="airplane"></section>
+                <section id="allgraphic"></section>
             </div>
         </div>
         <div class="grid-child green2">
@@ -80,7 +80,7 @@
        
     </div>
 
-    <section id="airplane"></section>
+    <section id="allgraphic"></section>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
@@ -89,17 +89,13 @@
 
     <script>
         $("document").ready(() => {
-            $.get("items/airplane.md").then((sData) => {
-                $("#airplane").append(marked(sData));
+            $.get("items/allgraphic.md").then((sData) => {
+                $("#allgraphic").append(marked(sData));
             });
             
     
         });
     </script>
 </body>
-
-
-
-
 
 </html>

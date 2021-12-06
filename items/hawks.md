@@ -1,0 +1,3 @@
+The pandemic has changed everyone's lives as many jobs become remote, and schools become online to keep students safe. Universities have also gone online, which means students stay home and continue their education. The problem comes with a considerable disadvantage as many sports teams, clubs and other school activities are on pause until the cases lower. This is hard for students, limiting how many people they can interact with that have similar interests. This application aims to bring students together who share similar interests online or in socially distance meetups. 
+
+To see the full process work, visit my portfolio in my about sections
