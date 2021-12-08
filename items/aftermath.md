@@ -1,5 +1,5 @@
-I have made this cover a few years ago but I still think it shows the message about the book and creates an cover to get the users attedntions. The book is about.
+#### I have made this cover a few years ago but I still think it shows the message about the book and creates an cover to get the users attedntions. The book is about.
 
-AfterMath is a novel about a school shooting that happened. The main character's brother was one of the attackers. In later years she was targeted, and later she found the truth about what happened to her brother and found out that he was innocent and misunderstood. The cover of the book was inspired by the bullets that cut through people. The woman on the front cover is the brother's sister as she is the main character. The blood represents the blood from the school shooting. 
+#### AfterMath is a novel about a school shooting that happened. The main character's brother was one of the attackers. In later years she was targeted, and later she found the truth about what happened to her brother and found out that he was innocent and misunderstood. The cover of the book was inspired by the bullets that cut through people. The woman on the front cover is the brother's sister as she is the main character. The blood represents the blood from the school shooting. 
 
-Blow are the process of creating this art work, I have made the digital art work using an digital platform call krida and the lettering in Ink Space. 
+#### Blow are the process of creating this art work, I have made the digital art work using an digital platform call krida and the lettering in Ink Space. 

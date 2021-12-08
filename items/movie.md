@@ -1,5 +1,1 @@
-## This I an app that helped the users look and save movies they would ike to see in the furtur. The app have many ways the app for the users to connect with other user that like the movie.
-
-They can look for movies and switch between each movies 
-
-Below are bits of the app design. 
+## This I an app that helped the users look and save movies they would ike to see in the further. The app have many ways the app for the users to connect with other user that like the movie. They can look for movies and switch between each movies. Below are bits of the app design. 
