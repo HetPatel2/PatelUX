@@ -1,1 +1,0 @@
-Here are all my grphic works that I have done for persionaal and business use. I am an small buiness owner that sells stationar and stickers on my etsy. Here are my favoirte art work that I have made. If you are interested in checking out my etsy please see the link in my contact page. 
